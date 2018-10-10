@@ -1,0 +1,45 @@
+*
+{
+margin:0px;
+padding:0px;
+}
+header
+{
+background-color:gray;
+height:40px;
+background-size:cover;
+background-position:center;
+width:100%;
+}
+.main-nav
+{
+float:center;
+list-style: none;
+margin-top:30px;
+}
+.main-nav li
+{
+display:inline;
+}
+.main-nav li a 
+{
+color:white;
+text-decoration:none;
+padding:5px 20px;
+font-family:"Times new roman";
+font-size:15px;
+text-align:center;
+}
+.main-nav li.active a 
+{
+border:1px solid white;
+}
+.main-nav li a:hover
+{
+border: 1px solid white;
+}
+container
+{
+background-color:white;
+width:100%;
+}

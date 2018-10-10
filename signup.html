@@ -1,0 +1,55 @@
+ <html>
+    <head>
+    <title>
+    SIGNUP  PAGE
+    </title>
+    </head>
+    <body background="logimg.jpg">
+<center>
+    <h1 align="center" font-size:20pt;
+    color:#00FF00;>
+    LOGIN PAGE
+    </h1>
+<link href="login.css" rel="stylesheet">
+ <form action="reg.php"  method="get">
+<div class="imgcontainer"></div>
+   <label for="userid"><b> Username</b></br>
+<input type="text" name="userid"/></br>
+
+   <label for="pswrd"><b>password</b></br>
+    <input type="password" name="pswrd"/></br>
+
+    <input type="button" onclick="check(this.form)" value="sign up">
+    <input type="reset" value="Cancel"/>
+
+ </center> </div>
+ 
+</form>
+</div>
+    </form>
+ <script language="javascript">
+    function check(form)
+    {
+      if(form.userid.value == "" && form.pswrd.value == "")
+      {
+alert("Sign up Successful ")
+window.open('stu.html')
+  }
+     else
+     {
+       alert("Invalid username and password")
+      }
+
+      if(form.userid.value == "" && form.pswrd.value == "")
+      {
+alert("Sign up successfully search")
+ }
+     else
+     {
+       alert("Invalid username and password")
+      }
+    }
+ </script>
+    </body>
+    </html>
+
